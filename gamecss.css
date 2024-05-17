@@ -1,0 +1,54 @@
+body {
+    background: black;
+}
+table {
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #52525299;
+    padding: 5px;
+}
+button {
+    width: 70px;
+    height: 70px;
+    background: black;
+    color: cyan;
+    border-radius: 5px;
+    font-size: 40px;
+    border: 0px solid #00ffff00;
+    transition: all .5s;
+}
+button:hover{
+    scale: 1.1;
+}
+h1{
+    width: 300px;
+    color: cyan;
+    font-size: 20px;
+    transition: all .5s;
+    padding: 30px;
+}
+h1:hover{
+    scale: 1.2;
+}
+.theam {
+    display: flex;
+    gap: 7px;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+}
+.theam div{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    transition: all .2s;
+}
+.colorbar div:hover{
+    scale: 1.2;
+}
+.div1 { background: cyan; }
+.div2 { background: red; }
+.div3 { background: #CC00FF; }
+.div4 { background: #33FF99; }
+.div5 { background: #607D8B; }
