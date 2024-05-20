@@ -1,61 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="in.css">
-    <title>Jarvis</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="gamecss.css">
+	<title>bingo</title>
 </head>
-<body id="ch" style="font-family: Consolas, monospace;">
-    <button onclick="white()" class="mods lite"><h3 class="lite">lite</h3></button>
-    <button onclick="dark()" class="mods dark"><h3 class="dark">dark</h3></button>
-    <div class="name">
-        <b>
-            <span class="n1">J</span>
-            <span class="n2">A</span>
-            <span class="n3">R</span>
-            <span class="n4">V</span>
-            <span class="n5">I</span>
-            <span class="n6">S</span>
-        </b>
+<body style="font-family: Consolas, monospace;">
+    <div class="theam">
+        <button id="c1" class="div1"></button>
+        <button id="c2" class="div2"></button>
+        <button id="c3" class="div3"></button>
+        <button id="c4" class="div4"></button>
+        <button id="c5" class="div5"></button>
     </div>
-    <div class="squre">
-        <div class="box u1"> </div>
-        <div class="box u2"> </div>
-        <div class="box u3"> </div>
-        <div class="box u4"> </div>
-        <div class="box u5"> </div>
-        <div class="box u6"> </div>
-        <div class="box u7"> </div>
-        <div class="box u8"> </div>
-        <div class="box u9"> </div>
-        <div class="box u10"> </div>
-        <div class="box u1"> </div>
-        <div class="box u2"> </div>
-        <div class="box u3"> </div>
-        <div class="box u4"> </div>
-        <div class="box u5"> </div>
-        <div class="box u6"> </div>
-        <div class="box u7"> </div>
-        <div class="box u8"> </div>
-        <div class="box u9"> </div>
-        <div class="box u10"> </div>
-    </div>
-<script>
-    function white() {
-        document.getElementById("ch").style.backgroundColor="white";
-    }
-    function dark() {
-        document.getElementById("ch").style.backgroundColor="black";
-    }
-    async function sleep(ms) {
-        return new Promise(resolve => setTimeout(resolve, ms));
-    }
-    async function forword(){
-        await sleep(500*10);
-        window.location.href = 'newbingo.html';
-    }
-    forword();
-</script>
+	<h1 id="print"> created by Jarvis</h1>
+	<table id="numberTable" cellpadding="0" cellspacing="0">
+		<tr>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+        </tr>
+        <tr>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+        </tr>
+        <tr>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+        </tr>
+        <tr>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+        </tr>
+        <tr>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+            <th><button class="b" onclick="changeColor(this)"></button></th>
+        </tr>
+	</table>
+    <input type="button" class="resetbutton" onclick="reset()" value='reset' id="resetbt">
+<script type="text/javascript" src="gamescript.js"> </script>
 </body>
 </html>
