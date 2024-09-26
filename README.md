@@ -1,4 +1,4 @@
-## bingo game made by Jarvis - praveenjadhav
+# bingo game made by Jarvis - praveenjadhav
 
 # Bingo Game 🎲
 
@@ -53,6 +53,7 @@ To run this game locally:
    open index.html
    ```
 
-## 📝 License
+### Preview
+![Link Cards Preview](images/p1.png)
 
 ### URL: https://praveenjadhav1510.github.io/bingo/
