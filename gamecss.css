@@ -4,6 +4,7 @@ body {
     padding: 0px;
     display: grid;
     place-items: center;
+    user-select: none;
 }
 table {
     width: 100vw;
